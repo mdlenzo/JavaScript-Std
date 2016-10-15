@@ -1,0 +1,5 @@
+/* CSS */
+body{padding: 10px;}
+h1{margin-bottom: 10px;}
+h1:first-letter{font-weight: bold;}
+b{font-weight: bold;}
