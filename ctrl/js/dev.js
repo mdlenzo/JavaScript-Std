@@ -241,3 +241,21 @@ function calculaRetangulo(b,h){
 function scrollXY(){
 	// console.log('As coordenadas das barras de rolagem são: \nHorizontal = ' + window.pageXOffset + 'pixels\nVertical =' + window.pageYOffset + 'pixels');
 }
+
+// Propriedades para se recuperar de um navegador
+console.log(navigator.appName);
+console.log(navigator.appVersion);
+console.log(navigator.appCodeName);
+console.log(navigator.userAgent);
+console.log(navigator.platform);
+console.log(navigator.cookieEnabled);
+console.log(navigator.language);
+
+function navegadorInfos(){
+	var nameNavigator = navigator.appCodeName;
+	if (nameNavigator  === 'Mozilla' ) {
+		alert('Muito bem, está usando o Mozilla');
+	}else{
+		alert('Pode ser que esteja usando o Google Chrome, tome cuidado com a memória do seu pc.')
+	}	
+}
