@@ -238,6 +238,6 @@ function calculaRetangulo(b,h){
 	return b*h;
 }
 
-function teste(urlAqui){
-	window.location.href= urlAqui;
+function scrollXY(){
+	// console.log('As coordenadas das barras de rolagem são: \nHorizontal = ' + window.pageXOffset + 'pixels\nVertical =' + window.pageYOffset + 'pixels');
 }
