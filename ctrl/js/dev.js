@@ -237,3 +237,7 @@ function calculaRetangulo(b,h){
 	//conforme foi solicitado também no HTML, através do console.log.
 	return b*h;
 }
+
+function teste(urlAqui){
+	window.location.href= urlAqui;
+}
